@@ -1,0 +1,82 @@
+.featured {
+  height: 100vh;
+}
+
+.featured--vertical, .featured--horizontal {
+  width: inherit;
+  height: inherit;
+}
+
+.featured--vertical {
+  background: linear-gradient(to top, #111, transparent);
+}
+
+.featured--horizontal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px 0 150px 40px;
+  background: linear-gradient(to right, #000, transparent);
+
+}
+
+.featured--name {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.featured--info {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.featured--points,
+.featured--year,
+.featured--seasons,
+.featured--buttons a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.featured--points {
+  color: #46d369;
+}
+
+.featured--description {
+  font-size: 20px;
+  color: #bbb;
+  max-width: 40%;
+}
+
+.featured--buttons a {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: .2s;
+}
+
+.featured--buttons a:hover {
+  opacity: .7;
+}
+
+.featured--buttons a:first-of-type {
+  margin-top: 15px;
+  background: white;
+  color: #222;
+}
+
+.featured--buttons a:last-of-type {
+  margin-top: 15px;
+  background: #333;
+  color: white;
+}
+
+.featured--genres {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #bbb;
+}
